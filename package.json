@@ -1,0 +1,23 @@
+{
+  "name": "first_nodeapp",
+  "version": "1.0.0",
+  "description": "First Node.js app with express and mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js"
+  },
+  "author": "Roxi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.14.0",
+    "mongodb": "^3.1.13",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
